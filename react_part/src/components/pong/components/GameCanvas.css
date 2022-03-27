@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+#wrapper { position: static; }
+#stage
+{
+	position: sticky;
+	position: -webkit-sticky;
+}
+
+#stage canvas{
+    top:0;
+	left:0;
+	position: absolute;
+}
+#bonus-layer{ z-index:2; }
+#background-layer{ z-index:1;
+    background-image: url('https://image.freepik.com/free-vector/pastel-watercolor-painted-background_23-2148959638.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ }

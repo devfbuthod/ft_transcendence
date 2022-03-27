@@ -1,0 +1,16 @@
+.ScrollingListPrivate {
+	margin: 2px;
+	margin-bottom: 20px;
+	margin-top: 4%;
+	height: 10em;
+	font-size: medium;
+}
+
+.ButtonConversation {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	width: 17em;
+	height: 2.5em;
+	font-size: medium;
+	border: none;
+}

@@ -1,0 +1,62 @@
+.userListMenu { width: 100%; }
+
+.ColMembers {
+	height: 300rem;
+}
+
+.PictureUser {
+	object-fit: cover; /* Do not scale the image */
+	object-position: center; /* Center the image within the element */
+	height: 3.5em;
+	width: 3.5em;
+	margin: 0.2em;
+	margin-right: 2em;
+}
+
+.UserButton {
+	border-radius: 0.5em;
+	font-size: large;
+	margin-top: 0.5em;
+}
+
+/* Context menu css */
+
+  nav.react-contextmenu {
+    position: fixed;
+    width: 200px;
+    left: 0;
+    top: calc(100% + 10px);
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 10px 0;
+    z-index: 99;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+}
+.react-contextmenu .react-contextmenu-item:hover{
+  background: #cccccc;
+}
+
+.react-contextmenu-item:hover:not(.react-contextmenu-item--disabled) {
+  background-color: #f1f1f1;
+}
+
+.react-contextmenu .react-contextmenu-item{
+  font-size: 14px;
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  user-select: none;
+  transition: .2s;
+  position: relative;
+  margin-bottom: 2px;
+  font-weight: 500;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  outline: none;
+}
+
+.react-contextmenu-item .Unavailable{
+  background-color: gray;
+}

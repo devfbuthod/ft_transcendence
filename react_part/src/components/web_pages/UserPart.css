@@ -1,0 +1,19 @@
+
+
+.ChatTitle {
+	border: 1px solid black;
+	max-height: 50px;
+	text-align: center;
+	font-size: 2em;
+	padding-top: 2px;
+}
+
+.ButtonCreate
+{ width: 50%; }
+
+.ColumChat {
+	height: 40%;
+	width: 40%;
+	padding: 50px;
+}
+

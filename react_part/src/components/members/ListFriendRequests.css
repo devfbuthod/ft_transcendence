@@ -1,0 +1,12 @@
+
+.FriendRequest {
+	background-color:#ff6900;
+	color: #F0FFFF;
+	margin-top: 0.5em;
+}
+
+.ValidationButton {
+	width: 2em;
+	height: 2em;
+	margin-top: 1em;
+}

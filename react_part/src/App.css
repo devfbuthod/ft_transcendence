@@ -1,0 +1,21 @@
+body
+{ background-color: #f8f9fa !important; }
+
+/* Fuke you safary */
+iframe
+{ display: none; }
+
+.Body
+{ padding: 1rem; }
+
+.Body > .row > div
+{ padding-bottom: 1rem; }
+
+.Avatar
+{
+	width: 3rem;
+	height: 3rem;
+	object-fit: cover;
+}
+
+.btn { text-transform: none !important;}

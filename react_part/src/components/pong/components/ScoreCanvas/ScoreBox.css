@@ -1,0 +1,43 @@
+/* #box {
+    width:1000px;
+    height: 80px;
+    background-color:blue;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#box #bloc-left {
+    display: flex;
+    align-items: center;
+}
+
+#box #bloc-middle {
+    display:inline-flex;
+    justify-content: space-evenly;
+
+}
+#box #bloc-right{
+    display:inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#box .name {
+    font-size:40px;
+}
+.bonus {
+}
+.score {
+    flex-grow: 1;
+} */
+#box img {
+    content: "";
+    display: block;
+    object-fit: cover;
+    height: 0px;
+    width: 0px;
+}
+

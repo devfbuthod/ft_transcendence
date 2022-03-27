@@ -1,0 +1,30 @@
+.button {
+    position:relative;
+}
+
+.over {
+	position:absolute;
+	top: 24.3%;
+	left: 23%;
+	font-size: 30px;
+	color: white;
+}
+
+.container-back {
+	background-color: blue;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.container-content {
+	background-color: red;
+	width: 100%;
+	height: 100%;
+}
+
+.image_back {
+	padding: 0 !important;
+	object-fit:'cover'; 
+	object-position:'center';
+}

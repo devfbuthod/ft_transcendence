@@ -1,0 +1,13 @@
+#score-canvas {
+	position: relative;
+}
+#score-canvas canvas {
+	top:0;
+	left:0;
+	position:absolute;
+}
+
+#score{ z-index:4;}
+#score-bonus-left{ z-index:3;}
+#score-bonus-right{ z-index:2;}
+#score-players{ z-index:1;}

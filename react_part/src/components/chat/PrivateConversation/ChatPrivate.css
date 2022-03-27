@@ -1,0 +1,21 @@
+
+.OtherUser {
+	font-size: large;
+	background-color: #A0B4D1;
+	text-align: center;
+	border: 1px solid black
+}
+
+.ChatPrivate {
+	height: 40em;
+}
+
+.MessageForm {
+	height: 20em;
+}
+
+.FormSendMessage {
+	width: 100%;
+	padding: 1em;
+	display: flex;
+}

@@ -1,0 +1,30 @@
+.login
+{
+	margin: 15vh auto;
+	padding: 5vh;
+	width: max-content;
+	background: white;
+	text-align: center;
+}
+
+.login .logo-pong
+{ height: 25vh; }
+
+.login h1
+{ font-size: 15vh; }
+
+.login button
+{ font-size: 2.5vh; }
+
+.login button .logo-42
+{
+	width: 1.1em;
+	vertical-align: text-bottom;
+}
+.login .credits
+{
+	position: fixed;
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

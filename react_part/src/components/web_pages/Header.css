@@ -1,0 +1,17 @@
+.Header .navbar-brand
+{ font-size: 1.5em; }
+
+.Header .navbar-brand img
+{
+	margin-right: 0.5rem;
+	width: 3rem;
+}
+
+.Header .NavProfile
+{ margin-left: 2rem; }
+
+.Header .NavProfile > a
+{ padding: 0px; }
+
+.Header .Avatar
+{ margin: 0px .5em; }

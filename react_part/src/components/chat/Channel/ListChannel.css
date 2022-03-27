@@ -1,0 +1,62 @@
+
+
+.ScrollingListChannel {
+	margin: 2px;
+	margin-bottom: 20px;
+	font-size: medium;
+}
+
+.ButtonChannel {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	width: 100%;
+	font-size: medium;
+	border: none;
+}
+
+
+/*Channels joined */
+
+.ChannelsJoined {
+	margin-bottom: 20px;
+}
+
+.ChannelsNotJoined {
+	margin-bottom: 20px;
+}
+
+.ButtonMyChannel {
+	text-align: center;
+	background-color: #DC7633;
+}
+
+.ButtonMyChannel:hover {
+	background-color: #D35400;
+	border: none;
+}
+
+.ButtonMyChannel:focus {
+	background-color: #D35400;
+}
+
+.LogoChannel {
+	width: 1.5em;
+	height: 1.5em;
+	margin-left: 0.6em;
+	margin-right: 0.6em;
+}
+
+/*Channels not joined */
+.ButtonOtherChannel {
+	text-align: center;
+	background-color: #2E2792;
+}
+
+.ButtonOtherChannel:hover {
+	background-color: #2E2792;
+	border: none;
+}
+
+.ButtonOtherChannel:focus {
+	background-color: #2E2792;
+}

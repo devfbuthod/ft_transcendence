@@ -1,0 +1,51 @@
+/* 
+.Ban {
+	font-size: 1500%;
+	padding-top: 7%;
+	padding-bottom: 5%;
+	color: red;
+	border-color: red;
+	border-style: solid;
+	margin-top: 40vh; /* poussé de la moitié de hauteur de viewport */
+	/* transform: translateY(-45%); /* tiré de la moitié de sa propre hauteur */
+/* }  */
+@import url("https://fonts.googleapis.com/css?family=Bungee");
+
+#ban {
+  color: white;
+  font-family: "Bungee", cursive;
+  margin-top: 50px;
+  text-align: center;
+}
+.link {
+  color: #2aa7cc;
+  text-decoration: none;
+}
+.link:hover {
+  color: rgb(223, 0, 0);
+}
+svg {
+  width: 50vw;
+}
+.lightblue {
+  fill: #444;
+}
+.eye {
+  cx: calc(115px + 30px * var(--mouse-x));
+  cy: calc(50px + 30px * var(--mouse-y));
+}
+#eye-wrap {
+  overflow: hidden;
+}
+.error-text {
+  font-size: 120px;
+}
+.alarm {
+  animation: alarmOn 0.5s infinite;
+}
+
+@keyframes alarmOn {
+  to {
+    fill: darkred;
+  }
+}

@@ -1,0 +1,26 @@
+.ProfileAvatar
+{
+	width: 10em;
+	height: 10em;
+
+	position: relative;
+    top: 5em;
+    left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+.Profile
+{ margin-top: -3rem; }
+
+.Matches > div
+{ padding-top: 10% !important; }
+
+
+@media (min-width: 1200px)
+{
+	.ProfileAvatar
+	{ left: 15%;}
+
+	.Friends
+	{ padding-top: 10rem !important; }
+}
